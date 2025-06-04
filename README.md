@@ -18,7 +18,19 @@ Welcome to **DistanceMeter**! This beginner-friendly Arduino project uses the HC
 
 ## 🔌 Wiring Instructions
 
+| HC-SR04 Pin | Arduino Pin |
+|-----------|-------------|
+| VCC       | 5V          |
+| GND       | GND         |
+| TRIG     | D9         |
+| ECHO     | D10         |
 
+| LCD Pin (via I2C) | Arduino Pin |
+|-----------|-------------|
+| VCC       | 5V          |
+| GND       | GND         |
+| SDA       | A4 (Uno)     |
+| SCL       | A5 (Uno)     |
 
 
 ## 💻 Uploading The Code
